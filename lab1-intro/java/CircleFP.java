@@ -21,6 +21,7 @@ class CircleFP {
         .collect(Collectors.joining("\n"));
   }
 
+  // test
   private String circleLine(int i){
     return
       IntStream.rangeClosed(1, 2*size).boxed()
